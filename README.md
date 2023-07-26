@@ -15,9 +15,7 @@ repo.
 * Updated BurpSuite Activation. Later versions of ansible would hang if a shell script started a process that didn't die. Put a timeout on the java process
 
 # ToDo
-
-* tmux-logging
-* git-clone repo's
+### git-clone repo's
 ** SharpCollection
 ** Sliver
 ** Villain
@@ -26,6 +24,7 @@ repo.
 ** Certipy
 ** Crackmapexec
 ** .. 
+---
 * Configure Burp
 * Configure Firefox (addons, CA Cert Burp)
-
+* tmux-logging
