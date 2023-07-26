@@ -16,14 +16,14 @@ repo.
 
 # ToDo
 ### git-clone repo's
-** SharpCollection
-** Sliver
-** Villain
-** Scripts # priv repo
-** Seclists
-** Certipy
-** Crackmapexec
-** .. 
+* SharpCollection
+* Sliver
+* Villain
+* Scripts # priv repo
+* Seclists
+* Certipy
+* Crackmapexec
+* .. 
 ---
 * Configure Burp
 * Configure Firefox (addons, CA Cert Burp)
