@@ -1,0 +1,3 @@
+---
+# tasks file for install-tools
+- include: kerbrute.yml
