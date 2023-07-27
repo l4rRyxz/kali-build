@@ -1,0 +1,13 @@
+---
+# tasks file for install-golang
+- name: "apt install golang-go"
+  apt:
+    name: golang
+    state: "present"
+  become: true
+  become_method: sudo
+- name: "add go to $PATH"
+  shell: |
+    export GOROOT=/usr/lib/go
+    export GOPATH=$HOME/go
+    export PATH=$GOPATH/bin:$GOROOT/bin:$PATH

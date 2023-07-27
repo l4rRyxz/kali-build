@@ -3,8 +3,9 @@
   hosts: localhost
   connection: local
   tasks:
-    - name "Installation Debug Message"
+    - name: "Installation Debug Message"
       debug:
         msg: "This is the customisation routine for kali linux from l4rry"
   roles:
-    - role: "/roles/configure-tmux"
+    - role: "roles/configure-tmux"
+    - role: "roles/install-tools"

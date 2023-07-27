@@ -1,3 +1,4 @@
 ---
 # tasks file for install-tools
+- include: golang.yml
 - include: kerbrute.yml
