@@ -23,7 +23,9 @@ repo.
 * Seclists
 * Certipy
 * Crackmapexec
-* .. 
+* Chisel
+* Ligolo-ng
+* 
 ---
 * Configure Burp
 * Configure Firefox (addons, CA Cert Burp)
