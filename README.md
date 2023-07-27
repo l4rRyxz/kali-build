@@ -12,18 +12,18 @@
 - [x] Instll TMUX
 - [x] Install go
 - [x] Install Kerbrute
-- [ ] Git clone SharpCollection
+- [x] Git clone SharpCollection
 - [ ] Download Sliver Binaries
-- [ ] Git clone Villain
-- [ ] Git clone Scripts // private repo
-- [ ] Git clone Seclists
-- [ ] Install Certipy
-- [ ] Install Crackmapexec
+- [x] Git clone Villain
+- [x] Git clone Scripts // private repo
+- [x] Git clone Seclists
+- [x] Install Certipy
+- [x] Install Crackmapexec
 - [ ] Download Chisel
 - [ ] Install Ligolo-ng
-- [ ] Install Evil-Win
-- [ ] Install Impacket
+- [x] Install Impacket
 - [ ] Configure Burp Suite
 - [ ] Configure Firefox
-- [ ] Install Tmux-Logging
+- [x] Install Tmux-Logging
 - [ ] Install Auditd
+- [x] Install bloodhound
