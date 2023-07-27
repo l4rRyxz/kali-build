@@ -8,25 +8,22 @@
 * Make sure we have a sudo token (sudo whoami)
 * ansible-playbook main.yml
 
-# Off-Video Changes
-* Mate-Terminal Colors, I show how to configure it here (https://www.youtube.com/watch?v=2y68gluYTcc). I just did the steps in that video on my old VM to backup the color scheme, then copied it to this 
-repo.
-* Evil-Winrm/Certipy/SharpCollection/CME/Impacket, will make a video for these soon
-* Updated BurpSuite Activation. Later versions of ansible would hang if a shell script started a process that didn't die. Put a timeout on the java process
-
-# ToDo
-### git-clone repo's
-* SharpCollection
-* Sliver
-* Villain
-* Scripts # priv repo
-* Seclists
-* Certipy
-* Crackmapexec
-* Chisel
-* Ligolo-ng
-* 
----
-* Configure Burp
-* Configure Firefox (addons, CA Cert Burp)
-* tmux-logging
+# What's within?
+- [x] Instll TMUX
+- [x] Install go
+- [x] Install Kerbrute
+- [ ] Git clone SharpCollection
+- [ ] Download Sliver Binaries
+- [ ] Git clone Villain
+- [ ] Git clone Scripts // private repo
+- [ ] Git clone Seclists
+- [ ] Install Certipy
+- [ ] Install Crackmapexec
+- [ ] Download Chisel
+- [ ] Install Ligolo-ng
+- [ ] Install Evil-Win
+- [ ] Install Impacket
+- [ ] Configure Burp Suite
+- [ ] Configure Firefox
+- [ ] Install Tmux-Logging
+- [ ] Install Auditd
