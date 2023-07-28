@@ -11,6 +11,7 @@
     - { repo: "https://github.com/S3cur3Th1sSh1t/PowerSharpPack.git", location: "/opt/PowerSharpPack" }
     - { repo: "https://github.com/tmux-plugins/tmux-logging.git", location: "/opt/tmux-logging" }
     - { repo: "https://github.com/t3l3machus/Villain", location: "/opt/Villain" }
+    - { repo: "https://github.com/l4rRyxz/pre-compiles.git", location: "/opt/pre-compiles" }
   become: true
   become_method: sudo
 
