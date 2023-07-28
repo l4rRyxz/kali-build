@@ -19,6 +19,13 @@
       - exiftool
       - gnome-terminal
       - bloodhound
+      - feroxbuster
+      - gobuster
+      - oscanner
+      - redis-tools
+      - svwar
+      - tnscmd10g
+      - wkhtmltopdf
     state: latest
   become: true
   become_method: sudo

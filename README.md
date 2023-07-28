@@ -13,6 +13,7 @@
 - [x] Install Kerbrute
 - [x] Git clone SharpCollection
 - [ ] Download Sliver Binaries
+- [ ] Download PEASS-ng
 - [x] Git clone Villain
 - [x] Git clone Scripts // private repo
 - [x] Git clone Seclists
@@ -26,3 +27,6 @@
 - [x] Install Tmux-Logging
 - [ ] Install Auditd
 - [x] Install bloodhound
+- [x] Updog
+- [ ] pspy
+- [x] AutoRecon
