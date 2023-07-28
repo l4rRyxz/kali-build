@@ -2,14 +2,23 @@
 
 # Instructions
 * Install Ansible
+
 `pip3 install ansible`
+
 * Clone and enter the repo
+
 `git clone https://github.com/l4rRyxz/kali-build.git`
+
 * Install requirements
+
 `ansible-galaxy install -r requirements.yml`
+
 * Make sure we have a sudo token
+
 `sudo whoami`
+
 * Run the playbook
+
 `ansible-playbook main.yml`
 
 ---
