@@ -23,7 +23,6 @@
       - gobuster
       - oscanner
       - redis-tools
-      - svwar
       - tnscmd10g
       - wkhtmltopdf
     state: latest

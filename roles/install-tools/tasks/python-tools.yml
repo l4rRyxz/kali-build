@@ -8,5 +8,5 @@
     - { name: 'impacket', url: 'git+https://github.com/fortra/impacket.git' }
     - { name: 'crackmapexec', url: 'git+https://github.com/mpgn/CrackMapExec.git' }
     - { name: 'certipy-ad', url: 'git+https://github.com/ly4k/Certipy.git' }
-    - { name: 'updog', url: 'git@github.com:sc0tfree/updog.git' }
+    - { name: 'updog', url: 'git+https://github.com/sc0tfree/updog.git' }
     - { name: 'AutoRecon', url: 'git+https://github.com/Tib3rius/AutoRecon.git' }
