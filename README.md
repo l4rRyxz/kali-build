@@ -49,6 +49,7 @@
 - [x] Kerbrute
 - [x] customize Burp Suite
 - [x] customize Firefox
+- [ ] custom queries bloodhound
 - [ ] customize .zshrc
 - [ ] Auditd
 
