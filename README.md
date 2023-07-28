@@ -9,6 +9,7 @@
 
 # What's within?
 - [x] Instll TMUX
+- [x] Install VSCode
 - [x] Install go
 - [x] Install Kerbrute
 - [x] Git clone SharpCollection
