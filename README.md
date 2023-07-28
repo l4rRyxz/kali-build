@@ -15,7 +15,8 @@
 
 - [x] Instll TMUX
 - [x] Install go
-- [x] Install Packages: [jq, pipx, python3*, ntpdate, flameshot, exiftool, gnome-terminal, bloodhound, feroxbuster, gobuster, oscanner, redis-tools, tnscmd10g, wkhtmltopdf]
+- [x] Install Packages: 
+	[jq, pipx, python3*, ntpdate, flameshot, exiftool, gnome-terminal, bloodhound, feroxbuster, gobuster, oscanner, redis-tools, tnscmd10g, wkhtmltopdf]
 
 ### Python Installations (pipx)
 - [x] Certipy
@@ -36,18 +37,18 @@
 - [x] pre-compiles
 
 ### Github Compiled Releases
-- [ ] Download Sliver C2 Framework
-- [ ] Download PEASS-ng
-- [ ] Download pspy
-- [ ] Download Chisel
-- [ ] Install Ligolo-ng
+- [ ] Sliver C2 Framework
+- [ ] PEASS-ng
+- [ ] pspy
+- [ ] Chisel
+- [ ] Ligolo-ng
 
 ### Custom Installations/Configurations
 
-- [x] Install VSCode
-- [x] Install Kerbrute
-- [x] Configure Burp Suite
-- [x] Configure Firefox
-- [ ] Configure .zshrc
+- [x] VSCode
+- [x] Kerbrute
+- [x] customize Burp Suite
+- [x] customize Firefox
+- [ ] customize .zshrc
 - [ ] Auditd
 
