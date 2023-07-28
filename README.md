@@ -32,3 +32,4 @@
 - [ ] pspy
 - [x] AutoRecon
 - [x] pre-compiles
+- [x] Install manspider
