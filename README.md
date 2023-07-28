@@ -22,11 +22,12 @@
 - [ ] Download Chisel
 - [ ] Install Ligolo-ng
 - [x] Install Impacket
-- [ ] Configure Burp Suite
-- [ ] Configure Firefox
+- [x] Configure Burp Suite
+- [x] Configure Firefox
 - [x] Install Tmux-Logging
 - [ ] Install Auditd
 - [x] Install bloodhound
 - [x] Updog
 - [ ] pspy
 - [x] AutoRecon
+- [x] pre-compiles
