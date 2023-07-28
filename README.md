@@ -6,30 +6,50 @@
 * ansible-galaxy install -r requirements.yml
 * Make sure we have a sudo token (sudo whoami)
 * ansible-playbook main.yml
+---
 
 # What's within?
+---
+
+### APT Installations
+
 - [x] Instll TMUX
-- [x] Install VSCode
 - [x] Install go
-- [x] Install Kerbrute
-- [x] Git clone SharpCollection
-- [ ] Download Sliver Binaries
-- [ ] Download PEASS-ng
-- [x] Git clone Villain
-- [x] Git clone Scripts // private repo
-- [x] Git clone Seclists
+- [x] Install bloodhound
+- [x] Some more APT Dependendies // check tasks
+
+### Python Installations (pipx)
 - [x] Install Certipy
 - [x] Install Crackmapexec
+- [x] Install Impacket
+- [x] Updog
+- [x] AutoRecon
+- [x] Install manspider
+
+
+### Github Repo's
+
+- [x] Git clone SharpCollection
+- [x] Git clone and Install Villain
+- [x] Git clone Scripts
+- [x] Git clone Seclists
+- [x] Git clone and Install Tmux-Logging
+- [ ] Install Auditd
+
+### Github Compiled Releases
+- [x] pre-compiles
+- [ ] Download Sliver C2 Framework
+- [ ] Download PEASS-ng
+- [ ] Download pspy
 - [ ] Download Chisel
 - [ ] Install Ligolo-ng
-- [x] Install Impacket
+
+### Custom Installations/Configurations
+
+- [x] Install VSCode
+- [x] Install Kerbrute
 - [x] Configure Burp Suite
 - [x] Configure Firefox
-- [x] Install Tmux-Logging
-- [ ] Install Auditd
-- [x] Install bloodhound
-- [x] Updog
-- [ ] pspy
-- [x] AutoRecon
-- [x] pre-compiles
-- [x] Install manspider
+- [ ] Configure .zshrc
+
+
