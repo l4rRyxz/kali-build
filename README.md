@@ -15,29 +15,27 @@
 
 - [x] Instll TMUX
 - [x] Install go
-- [x] Install bloodhound
-- [x] Some more APT Dependendies // check tasks
+- [x] Install Packages: [jq, pipx, python3*, ntpdate, flameshot, exiftool, gnome-terminal, bloodhound, feroxbuster, gobuster, oscanner, redis-tools, tnscmd10g, wkhtmltopdf]
 
 ### Python Installations (pipx)
-- [x] Install Certipy
-- [x] Install Crackmapexec
-- [x] Install Impacket
+- [x] Certipy
+- [x] Crackmapexec
+- [x] Impacket
 - [x] Updog
 - [x] AutoRecon
-- [x] Install manspider
-
+- [x] manspider
 
 ### Github Repo's
 
-- [x] Git clone SharpCollection
-- [x] Git clone and Install Villain
-- [x] Git clone Scripts
-- [x] Git clone Seclists
-- [x] Git clone and Install Tmux-Logging
-- [ ] Install Auditd
+- [x] SharpCollection
+- [x] Seclists
+- [x] Scripts
+- [x] PowerSharpPack
+- [x] Tmux-Logging
+- [x] Villain
+- [x] pre-compiles
 
 ### Github Compiled Releases
-- [x] pre-compiles
 - [ ] Download Sliver C2 Framework
 - [ ] Download PEASS-ng
 - [ ] Download pspy
@@ -51,5 +49,5 @@
 - [x] Configure Burp Suite
 - [x] Configure Firefox
 - [ ] Configure .zshrc
-
+- [ ] Auditd
 
