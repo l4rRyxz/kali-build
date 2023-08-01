@@ -26,6 +26,7 @@
 - [x] Updog
 - [x] AutoRecon
 - [x] manspider
+- [x] DonPAPI
 
 ### Github Repo's
 

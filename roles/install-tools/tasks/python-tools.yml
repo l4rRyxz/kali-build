@@ -11,3 +11,4 @@
     - { name: 'updog', url: 'git+https://github.com/sc0tfree/updog.git' }
     - { name: 'AutoRecon', url: 'git+https://github.com/Tib3rius/AutoRecon.git' }
     - { name: 'man-spider', url: 'git+https://github.com/blacklanternsecurity/MANSPIDER' }
+    - { name: 'donpapi', url: 'git+https://github.com/login-securite/DonPAPI.git' }
