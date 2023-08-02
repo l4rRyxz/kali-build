@@ -12,6 +12,8 @@
     - { repo: "https://github.com/tmux-plugins/tmux-logging.git", location: "/opt/tmux-logging" }
     - { repo: "https://github.com/t3l3machus/Villain", location: "/opt/Villain" }
     - { repo: "https://github.com/l4rRyxz/pre-compiles.git", location: "/opt/pre-compiles" }
+    - { repo: "https://github.com/TheWover/donut.git", location: "/opt/donut" }
+    - { repo: "https://github.com/RedTeamPentesting/pretender.git", location: "/opt/pretender" }
   become: true
   become_method: sudo
 
@@ -20,3 +22,10 @@
     cd /opt/Villain
     sudo pip3 install -r requirements.txt
     sudo chmod +x Villain.py
+
+- name: "Make donut"
+  shell: |
+    cd /opt/donut
+    make
+  become: true
+  become_method: sudo

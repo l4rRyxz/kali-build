@@ -37,8 +37,8 @@
 - [x] Tmux-Logging
 - [x] Villain
 - [x] pre-compiles
-- [ ] pretender
-- [ ] donut
+- [x] pretender
+- [x] donut
 
 ### Github Compiled Releases
 - [ ] Sliver C2 Framework
