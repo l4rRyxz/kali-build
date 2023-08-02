@@ -38,6 +38,7 @@
 - [x] Villain
 - [x] pre-compiles
 - [ ] pretender
+- [ ] donut
 
 ### Github Compiled Releases
 - [ ] Sliver C2 Framework
