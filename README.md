@@ -37,6 +37,7 @@
 - [x] Tmux-Logging
 - [x] Villain
 - [x] pre-compiles
+- [ ] pretender
 
 ### Github Compiled Releases
 - [ ] Sliver C2 Framework
