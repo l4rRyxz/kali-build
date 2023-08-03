@@ -11,6 +11,7 @@
     - role: "roles/configure-tmux"
     - role: "roles/install-tools"
     - role: "roles/customize-browser"
+    - role: "roles/sliver-extensions"
     - role: gantsign.visual-studio-code
       users:
         - username: "{{ ansible_user_id }}" 

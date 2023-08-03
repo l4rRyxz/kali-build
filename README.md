@@ -57,3 +57,7 @@
 - [x] customize .zshrc
 - [ ] Auditd
 
+### Sliver Custom Extensions
+
+- [x] Chisel
+- [x] Mimikatz
