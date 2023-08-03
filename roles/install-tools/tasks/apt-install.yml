@@ -33,6 +33,9 @@
   become: true
   become_method: sudo
 
+- name: "make bloodhound path"
+  shell: mkdir "{{ ansible_env.HOME }}/.config/bloodhound"
+
 - name: "Copy customqueries.json to bloodhound"
   copy:
     src: "files/customqueries.json"
