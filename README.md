@@ -40,6 +40,11 @@
 - [x] pretender
 - [x] donut
 
+### Sliver Custom Extensions
+
+- [x] Chisel
+- [x] Mimikatz
+
 ### Github Compiled Releases
 - [ ] Sliver C2 Framework
 - [ ] PEASS-ng
@@ -56,8 +61,3 @@
 - [x] custom queries bloodhound
 - [x] customize .zshrc
 - [ ] Auditd
-
-### Sliver Custom Extensions
-
-- [x] Chisel
-- [x] Mimikatz
