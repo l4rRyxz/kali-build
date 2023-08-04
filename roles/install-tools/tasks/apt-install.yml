@@ -33,9 +33,6 @@
   become: true
   become_method: sudo
 
-- name: "make bloodhound path"
-  shell: mkdir "{{ ansible_env.HOME }}/.config/bloodhound"
-
 - name: "Create bloodhound directory if it does not exist"
   ansible.builtin.file:
     path: "{{ ansible_env.HOME }}/.sliver-client/extensions/chisel"
