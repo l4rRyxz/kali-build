@@ -1,20 +1,15 @@
----
 # tasks file for sliver-extensions
 
 - name: "Create sliver-extension directories if it does not exist"
   ansible.builtin.file:
     path: "{{ item.path }}"
+    state: "directory"
+    mode: "0755"
+    owner: "{{ ansible_env.USER }}"
+    group: "{{ ansible_env.USER }}"
   loop:
-    - path: "{{ ansible_env.HOME }}/.sliver-client/extensions/chisel"
-      state: directory
-      mode: '0755'
-      owner: "{{ ansible_env.USER }}"
-      group: "{{ ansible_env.USER }}"
-    - path:  "{{ ansible_env.HOME }}/.sliver-client/extensions/mimikatz"
-      state: directory
-      mode: '0755'
-      owner: "{{ ansible_env.USER }}"
-      group: "{{ ansible_env.USER }}"
+    - { path: '{{ ansible_env.HOME }}/.sliver-client/extensions/chisel' }
+    - { path: '{{ ansible_env.HOME }}/.sliver-client/extensions/mimikatz' }
   become: true
   become_method: sudo
 
@@ -22,27 +17,18 @@
   copy:
     src: "{{ item.src }}"
     dest: "{{ item.dest }}"
+    owner: "{{ ansible_env.USER }}"
+    group: "{{ ansible_env.USER }}"
   loop:
     - src: "files/chisel/chisel.x64.dll"
       dest: "{{ ansible_env.HOME }}/.sliver-client/extensions/chisel"
-      owner: "{{ ansible_env.USER }}"
-      group: "{{ ansible_env.USER }}"
     - src: "files/chisel/chisel.x86.dll"
       dest: "{{ ansible_env.HOME }}/.sliver-client/extensions/chisel"
-      owner: "{{ ansible_env.USER }}"
-      group: "{{ ansible_env.USER }}"
     - src: "files/chisel/extension.json"
       dest: "{{ ansible_env.HOME }}/.sliver-client/extensions/chisel"
-      owner: "{{ ansible_env.USER }}"
-      group: "{{ ansible_env.USER }}"
     - src: "files/mimikatz/mimikatz.dll"
       dest: "{{ ansible_env.HOME }}/.sliver-client/extensions/mimikatz"
-      owner: "{{ ansible_env.USER }}"
-      group: "{{ ansible_env.USER }}"
     - src: "files/mimikatz/extension.json"
       dest: "{{ ansible_env.HOME }}/.sliver-client/extensions/mimikatz"
-      owner: "{{ ansible_env.USER }}"
-      group: "{{ ansible_env.USER }}"
   become: true
   become_method: sudo
-
