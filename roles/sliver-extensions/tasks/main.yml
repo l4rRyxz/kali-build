@@ -1,7 +1,7 @@
 ---
 # tasks file for sliver-extensions
 
-- name: "Create sliver-extension directory if it does not exist"
+- name: "Create sliver-extension directories if it does not exist"
   ansible.builtin.file:
     path: "{{ item.path }}"
   loop:
