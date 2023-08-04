@@ -29,6 +29,7 @@
       - redis-tools
       - tnscmd10g
       - wkhtmltopdf
+      - proxychains
     state: latest
   become: true
   become_method: sudo
