@@ -42,7 +42,7 @@
 
 ### Sliver Custom Extensions
 
-- #### [Feeding Sliver - Extension Guide](https://medium.com/@l4rry/feeding-sliver-extension-guide-1c14fae42a2a)
+#### [Feeding Sliver - Extension Guide](https://medium.com/@l4rry/feeding-sliver-extension-guide-1c14fae42a2a)
 
 - [x] Chisel
 - [x] Mimikatz
