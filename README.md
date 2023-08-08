@@ -16,6 +16,7 @@
 
 - [x] Instll TMUX
 - [x] Install go
+- [ ] Install rust
 - [x] Install Packages: 
 	[jq, pipx, python3*, ntpdate, flameshot, exiftool, gnome-terminal, bloodhound, feroxbuster, gobuster, oscanner, redis-tools, tnscmd10g, wkhtmltopdf]
 
@@ -39,6 +40,7 @@
 - [x] pre-compiles
 - [x] pretender
 - [x] donut
+- [ ] RustPacker
 
 ### Sliver Custom Extensions
 
