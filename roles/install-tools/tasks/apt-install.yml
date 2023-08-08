@@ -36,7 +36,7 @@
 
 - name: "Create bloodhound directory if it does not exist"
   ansible.builtin.file:
-    path: "{{ ansible_env.HOME }}/.sliver-client/extensions/chisel"
+    path: "{{ ansible_env.HOME }}/.config/bloodhound"
     state: directory
     mode: '0755'
     owner: "{{ ansible_env.USER }}"
