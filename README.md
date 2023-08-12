@@ -41,6 +41,8 @@
 - [x] pretender
 - [x] donut
 - [ ] RustPacker
+- [ ] X-Force SQLRecon
+
 
 ### Sliver Custom Extensions
 
