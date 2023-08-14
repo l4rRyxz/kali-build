@@ -24,6 +24,7 @@
       - python3-dev
       - python3-pip
       - python3-venv
+      - python3-requests-future
       - ntpdate
       - flameshot
       - exiftool
