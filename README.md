@@ -63,7 +63,7 @@
 - [x] donut
 - [ ] RustPacker
 - [ ] X-Force SQLRecon
-
+- [X] XenSpawn
 
 ### Sliver Custom Extensions
 
