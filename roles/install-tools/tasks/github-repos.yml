@@ -14,6 +14,7 @@
     - { repo: "https://github.com/l4rRyxz/pre-compiles.git", location: "/opt/pre-compiles" }
     - { repo: "https://github.com/TheWover/donut.git", location: "/opt/donut" }
     - { repo: "https://github.com/RedTeamPentesting/pretender.git", location: "/opt/pretender" }
+    - { repo: "https://github.com/X0RW3LL/XenSpawn.git", location: "/opt/XenSpawn" }
   become: true
   become_method: sudo
 

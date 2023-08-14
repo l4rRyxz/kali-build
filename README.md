@@ -18,7 +18,28 @@
 - [x] Install go
 - [ ] Install rust
 - [x] Install Packages: 
-	[jq, pipx, python3*, ntpdate, flameshot, exiftool, gnome-terminal, bloodhound, feroxbuster, gobuster, oscanner, redis-tools, tnscmd10g, wkhtmltopdf]
+      - jq
+      - pipx
+      - python3
+      - python3-dev
+      - python3-pip
+      - python3-venv
+      - ntpdate
+      - flameshot
+      - exiftool
+      - gnome-terminal
+      - bloodhound
+      - feroxbuster
+      - gobuster
+      - oscanner
+      - redis-tools
+      - tnscmd10g
+      - wkhtmltopdf
+      - proxychains
+      - docker.io
+      - docker-compose
+      - awscli
+      - azure-cli
 
 ### Python Installations (pipx)
 - [x] Certipy

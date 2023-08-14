@@ -30,6 +30,10 @@
       - tnscmd10g
       - wkhtmltopdf
       - proxychains
+      - docker.io
+      - docker-compose
+      - awscli
+      - azure-cli
     state: latest
   become: true
   become_method: sudo
