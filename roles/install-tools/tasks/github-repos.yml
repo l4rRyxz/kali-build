@@ -15,6 +15,7 @@
     - { repo: "https://github.com/TheWover/donut.git", location: "/opt/donut" }
     - { repo: "https://github.com/RedTeamPentesting/pretender.git", location: "/opt/pretender" }
     - { repo: "https://github.com/X0RW3LL/XenSpawn.git", location: "/opt/XenSpawn" }
+    - { repo: "https://github.com/riotsecurity/RepCheck.git", location: "/opt/RepCheck" }
   become: true
   become_method: sudo
 
