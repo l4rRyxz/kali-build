@@ -17,6 +17,8 @@
     - { repo: "https://github.com/X0RW3LL/XenSpawn.git", location: "/opt/XenSpawn" }
     - { repo: "https://github.com/riotsecurity/RepCheck.git", location: "/opt/RepCheck" }
     - { repo: "https://github.com/S3cur3Th1sSh1t/WinPwn.git", location: "/opt/WinPwn" }
+    - { repo: "https://github.com/xforcered/SQLRecon.git", location: "/opt/SQLRecon-X" }
+    - { repo: "https://github.com/l4rRyxz/RustPacker.git", location: "/opt/RustPacker" }
   become: true
   become_method: sudo
 

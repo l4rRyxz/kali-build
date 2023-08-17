@@ -16,7 +16,7 @@
 
 - [x] Instll TMUX
 - [x] Install go
-- [ ] Install rust
+- [x] Install rust
 - [x] Install Packages: 
       - jq
       - pipx
@@ -62,8 +62,8 @@
 - [x] pre-compiles
 - [x] pretender
 - [x] donut
-- [ ] RustPacker
-- [ ] X-Force SQLRecon
+- [x] RustPacker
+- [x] X-Force SQLRecon
 - [X] XenSpawn
 
 ### Sliver Custom Extensions

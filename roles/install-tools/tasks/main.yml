@@ -1,7 +1,8 @@
 ---
 # tasks file for install-tools
-- include: apt-install.yml
-- include: golang.yml
-- include: kerbrute.yml
-- include: python-tools.yml
-- include: github-repos.yml
+- include_tasks: apt-install.yml
+- include_tasks: rust-install.yml
+- include_tasks: golang.yml
+- include_tasks: kerbrute.yml
+- include_tasks: python-tools.yml
+- include_tasks: github-repos.yml

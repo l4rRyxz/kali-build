@@ -12,11 +12,11 @@
     - role: "roles/install-tools"
     - role: "roles/customize-browser"
     - role: "roles/sliver-extensions"
-    - role: gantsign.visual-studio-code
-      users:
-        - username: "{{ ansible_user_id }}" 
-          visual_studio_code_extensions:
-            - streetsidesoftware.code-spell-checker
-            - ms-python.python
-            - DEVSENSE.phptools-vscode
-            - snyk-security.snyk-vulnerability-scanner
+      # - role: gantsign.visual-studio-code
+      #users:
+      #    - username: "{{ ansible_user_id }}" 
+        # visual_studio_code_extensions:
+        #   - streetsidesoftware.code-spell-checker
+        #   - ms-python.python
+        #   - DEVSENSE.phptools-vscode
+        #   - snyk-security.snyk-vulnerability-scanner
