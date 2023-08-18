@@ -50,6 +50,7 @@
 - [x] AutoRecon
 - [x] manspider
 - [x] DonPAPI
+- [ ] bloodhound-python
 
 ### Github Repo's
 
@@ -88,4 +89,5 @@
 - [x] customize Firefox
 - [x] custom queries bloodhound
 - [x] customize .zshrc
+- [ ] Bloodhound CE
 - [ ] Auditd
