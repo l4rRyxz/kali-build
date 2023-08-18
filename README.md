@@ -65,6 +65,8 @@
 - [x] RustPacker
 - [x] X-Force SQLRecon
 - [X] XenSpawn
+- [ ] Freeze (rs,go)
+- [ ] Havoc C2
 
 ### Sliver Custom Extensions
 
