@@ -63,11 +63,18 @@
 - [x] pre-compiles
 - [x] pretender
 - [x] donut
-- [x] RustPacker
+
 - [x] X-Force SQLRecon
 - [X] XenSpawn
-- [ ] Freeze (rs,go)
+
 - [ ] Havoc C2
+
+### Public Packer/Loader
+- [x] RustPacker
+- [ ] Freeze (rs,go)
+- [ ] https://github.com/wangfly-me/LoaderFly
+- [ ] https://github.com/TunnelGRE/Augustus
+- [ ] 
 
 ### Sliver Custom Extensions
 
