@@ -1,15 +1,15 @@
 ---
 # tasks file for customize-zshrc
-- name: "Ensure $PATH is correctly modified with ~/.local/bin added for current user"
+- name: "Ensure $PATH is correctly modified added for current user (PIPX, RUST)"
   ansible.builtin.lineinfile:
     path: "{{ ansible_env.HOME }}/.zshrc"
-    line: "export PATH=~/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:$PATH"
+    line: "export PATH=~/.local/bin:~/.cargo/env:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:$PATH"
     create: true
 
-- name: "Ensure $PATH is correctly modified with ~/.local/bin added for root"
+- name: "Ensure $PATH is correctly modified added for root (PIPX, RUST)"
   ansible.builtin.lineinfile:
     path: "/root/.zshrc"
-    line: "export PATH=~/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:$PATH"
+    line: "export PATH=~/.local/bin:~/.cargo/env:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:$PATH"
     create: true
   become: true
   become_method: sudo

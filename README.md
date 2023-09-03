@@ -16,7 +16,7 @@
 
 - [x] Instll TMUX
 - [x] Install go
-- [ ] Install rust
+- [x] Install rust
 - [x] Install Packages: 
       - jq
       - pipx
@@ -50,6 +50,7 @@
 - [x] AutoRecon
 - [x] manspider
 - [x] DonPAPI
+- [ ] bloodhound-python
 
 ### Github Repo's
 
@@ -62,9 +63,18 @@
 - [x] pre-compiles
 - [x] pretender
 - [x] donut
-- [ ] RustPacker
-- [ ] X-Force SQLRecon
+
+- [x] X-Force SQLRecon
 - [X] XenSpawn
+
+- [ ] Havoc C2
+
+### Public Packer/Loader
+- [x] RustPacker
+- [ ] Freeze (rs,go)
+- [ ] https://github.com/wangfly-me/LoaderFly
+- [ ] https://github.com/TunnelGRE/Augustus
+- [ ] 
 
 ### Sliver Custom Extensions
 
@@ -88,4 +98,5 @@
 - [x] customize Firefox
 - [x] custom queries bloodhound
 - [x] customize .zshrc
+- [ ] Bloodhound CE
 - [ ] Auditd
