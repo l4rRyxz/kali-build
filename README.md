@@ -63,10 +63,9 @@
 - [x] pre-compiles
 - [x] pretender
 - [x] donut
-
 - [x] X-Force SQLRecon
 - [X] XenSpawn
-
+- [ ] RustHound
 - [ ] Havoc C2
 
 ### Public Packer/Loader
