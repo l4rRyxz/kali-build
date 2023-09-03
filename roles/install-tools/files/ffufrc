@@ -1,0 +1,30 @@
+[general]
+  colors = true
+
+#[http]
+#
+# >>  give client a custom header
+#    headers = [
+#        "X-SOC-Tag: clientXYZ-audit042",
+#    ]
+#
+# >> define proxy url, or static url
+#
+#    proxyurl = "http://127.0.0.1:8080"
+#    url = "http://ffuf.me/cd/basic/FUZZ"
+
+
+# FOR FUTURE USE OF PREDEFINED LISTS.
+
+#[input]
+#    wordlists = [
+#        "/usr/share/seclists/Discovery/Web-Content/common.txt:COMMON",
+#        "/usr/share/seclists/Discovery/Web-Content/burp-parameter-names.txt:PARAM",
+#        "/usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:SUBDOMAINS",
+#        "/usr/share/seclists/Discovery/Web-Content/quickhits.txt:QUICKHITS",
+#        "/usr/share/seclists/Discovery/Web-Content/raft-medium-files-lowercase.txt:MEDIUMFILES",
+#        "/usr/share/seclists/Discovery/Web-Content/raft-medium-directories-lowercase.txt:MEDIUMDIR",
+#        "/usr/share/seclists/Discovery/Web-Content/raft-medium-words-lowercase.txt:MEDIUMWORDS"
+#    ]
+
+
