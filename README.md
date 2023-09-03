@@ -75,6 +75,11 @@
 - [ ] https://github.com/TunnelGRE/Augustus
 - [ ] 
 
+### Rust Malware Development
+https://github.com/memN0ps
+https://github.com/trickster0/OffensiveRust
+https://github.com/Kudaes
+
 ### Sliver Custom Extensions
 
 #### [Feeding Sliver - Extension Guide](https://medium.com/@l4rry/feeding-sliver-extension-guide-1c14fae42a2a)
