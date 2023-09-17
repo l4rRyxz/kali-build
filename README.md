@@ -87,6 +87,11 @@ https://github.com/Kudaes
 - [x] Chisel
 - [x] Mimikatz
 
+### BOF Collection
+- [ ] Truestedsec (SA/Remote)
+- [ ] Outflank C2TC
+- [ ] https://github.com/Mr-Un1k0d3r/Elevate-System-Trusted-BOF
+
 ### Github Compiled Releases
 - [ ] Sliver C2 Framework
 - [ ] PEASS-ng
