@@ -74,6 +74,7 @@
 - [ ] https://github.com/wangfly-me/LoaderFly
 - [ ] https://github.com/TunnelGRE/Augustus
 - [ ] https://github.com/D3Ext/Hooka
+- [ ] https://github.com/b1nhack/rust-shellcode
 
 ### Rust Malware Development
 https://github.com/memN0ps
