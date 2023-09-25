@@ -67,6 +67,7 @@
 - [X] XenSpawn
 - [ ] RustHound
 - [ ] Havoc C2
+- [ ] NucleiFuzzer
 
 ### Public Packer/Loader
 - [x] RustPacker
