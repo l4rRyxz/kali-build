@@ -68,6 +68,7 @@
 - [ ] RustHound
 - [ ] Havoc C2
 - [ ] NucleiFuzzer
+- [ ] ThreatTracer
 
 ### Public Packer/Loader
 - [x] RustPacker
