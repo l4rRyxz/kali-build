@@ -68,7 +68,7 @@
 - [ ] RustHound
 - [ ] Havoc C2
 - [ ] NucleiFuzzer
-- [ ] ThreatTracer
+- [ ] Coercer https://github.com/p0dalirius/Coercer
 
 ### Public Packer/Loader
 - [x] RustPacker
