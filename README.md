@@ -63,18 +63,25 @@
 - [x] pre-compiles
 - [x] pretender
 - [x] donut
-
 - [x] X-Force SQLRecon
 - [X] XenSpawn
-
+- [ ] RustHound
 - [ ] Havoc C2
+- [ ] NucleiFuzzer
+- [ ] Coercer https://github.com/p0dalirius/Coercer
 
 ### Public Packer/Loader
 - [x] RustPacker
 - [ ] Freeze (rs,go)
 - [ ] https://github.com/wangfly-me/LoaderFly
 - [ ] https://github.com/TunnelGRE/Augustus
-- [ ] 
+- [ ] https://github.com/D3Ext/Hooka
+- [ ] https://github.com/b1nhack/rust-shellcode
+
+### Rust Malware Development
+https://github.com/memN0ps
+https://github.com/trickster0/OffensiveRust
+https://github.com/Kudaes
 
 ### Sliver Custom Extensions
 
@@ -82,6 +89,11 @@
 
 - [x] Chisel
 - [x] Mimikatz
+
+### BOF Collection
+- [ ] Truestedsec (SA/Remote)
+- [ ] Outflank C2TC
+- [ ] https://github.com/Mr-Un1k0d3r/Elevate-System-Trusted-BOF
 
 ### Github Compiled Releases
 - [ ] Sliver C2 Framework
